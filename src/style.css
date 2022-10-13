@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Helvetica;
+}
+
+.about-section {
+    height: 660px;
+}
+
+.sign-up .email-input {
+    width: 70%;
+}
+
+.sign-up .try-for-free {
+    width: 27%;
+}
+
+.introduction-section {
+    height: 180vh;
+}
+
+.customer-goals .goal {
+    width: 23%;
+}
+
+.features-scroll .feature {
+    height: 440px;
+}
+
+.explore-more-section {
+    height: 90vh;
+}
+
+.overview-all {
+    height: 180vh;
+}
+
+.overview-all .info span {
+    font-weight: 700;
+}
+
+.earth-globe {
+    width: auto;
+    height: 65%;
+}
+
+.review {
+    height: 100vh;
+}
+
+.review-quote {
+    line-height: 1.6;
+}
+
+.help-section {
+    height: 90vh;
+}
+
+.ending-section {
+    height: 400px;
+    margin: auto;
+}
+
+.footer {
+    height: 80vh;
+}
+
+.links-category .link {
+    font-size: 15px;
+    margin: 6px 0px;
+}
+
+.footer .other-links {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+@media (max-width: 440px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .about-section {
+        height: 90vh;
+    }
+
+    .introduction-section {
+        height: 260vh;
+    }
+
+    .customer-goals .goal {
+        width: 48%;
+    }
+
+    .features-scroll .feature {
+        height: 540px;
+    }
+
+    .overview-all {
+        height: 90vh;
+    }
+    
+    .earth-globe {
+        width: 100%;
+        height: auto;
+    }
+
+    .help-section {
+        height: 140vh;
+    }
+
+    .footer {
+        height: 140vh;
+    }
+
+    .links-category {
+        padding: 0px;
+        margin: 0px;
+    }
+}
